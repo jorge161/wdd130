@@ -6,17 +6,31 @@
 
 nav{
     background-color: steelblue;
-    padding: 10px;
+    padding: 0.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
 }
 
 nav a{
-    color: white;
     display: block;
-    padding: 20px;
+    padding: 0.5rem;
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: #fff;
+    
+    
 }
 
 h1{
     color: steelblue;
+    border-bottom: 2px solid black;
+    height: auto;
+    width: auto;
+    padding: 10px;
+    
 }
 
 main img{
@@ -28,14 +42,11 @@ main img{
 }
 
 p{
-    padding: 0;
+    padding: 10px;
     width: auto;
 }
 
-main {
-    max-width: 840px;
-}
-
+ 
 aside{
     width: 20em;
     text-align: center;
@@ -46,21 +57,39 @@ aside img {
     width: 200px;
     height: auto;
 }
+/*--------------GRID and FLEXBOX LAYOUTS----------------*/
+
+
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 20px;
+    
+}
+
+header{
+   grid-column: 1/5;
+   grid-row: 1/2;
+         
+}
+main{    
+    grid-column: 2/5;
+    grid-row: 2/4;
+}
+ 
+div{    
+    grid-column: 1/2;
+    grid-row: 2/4;
+}
 
 footer{
-    margin-top: 15px;
-    border-top: 1px solid #000;
-    text-align: center;
-}
-
-#underline{
-    text-decoration: underline;
-    color: hsl(175, 88%, 30%);
-
+    text-align: center;  
+    grid-column: 1/5;
+    grid-row: 4/5;
 }
 
 
-/*Class selectors*/
+ /*Class selectors*/
 
 .box{
     margin: 1rem;
