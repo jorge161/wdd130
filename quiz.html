@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Quiz</title>
+    <link rel="stylesheet" href="styles/quiz.css">
+</head>
+<body>
+    <h1>Course Home - Quiz Form</h1>
+    <form action="#" method="POST">
+        <div>
+            <label for="q1">What does the acronym CSS stan forr?:</label>
+            <input type="text" id="q1" name="q1">
+        </div>
+        <div>
+            <label for="q2">How are id and class attribute selected in CSS?:</label>
+            <textarea id="q2" name="q2" rows="4"></textarea>
+        </div>
+        <div>
+            <label for="q3">Which of the followins is a vlid CSS comment:</label>
+            <select id="q3" name="q3">
+                <option value="" selected disabled>Choose One ...</option>
+                <option value="option1">Option 1</option>
+                <option value="option2">Option 2</option>
+                <option value="option3">Option 3</option>
+            </select>
+        </div>
+        <div  class="div-q4">
+            <label class="item1" for="q4">What is the bottom margin given this declaration?:</label>
+            <p id="par" class="item2">margin: 10px 5px 15px</p>
+            <input class="item3" type="number" id="q4" name="q4">
+        </div>
+        <button type="submit">Submit Quiz</button>
+    </form>
+</body>
+</html>
