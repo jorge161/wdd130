@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="styles/contact.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header class="header-container"> 
+        <img class="log" src="images/Villas-Pico-Bonito.webp" alt="">
+        <nav class="nav-header-flex">
+             <ul class="navigation">
+                <li><a href="index.html">Home Page</a> </li>
+                <li><a href="about.html">About Us </a> </li>
+                <li><a href="trips.html">Trips    </a> </li>
+                <li><a href="contact.html">contact</a> </li>
+             </ul>
+        </nav>
+    </header>
+    <main>
+        <form action="#" method="POST">
+            <div>
+                <label for="q1">Enter your complete name:</label>
+                <input type="text" id="q1" name="q1">
+            </div>
+            <div>
+                <label for="q2">Enter you e-mail:</label>
+                <input type="email" name="q2" id="q2">
+            </div>
+            <h2>Why are you contacting us?</h2>
+            <div>                 
+                <input type="radio" id="option1" name="options" value="option1">
+                <label for="option1">General Inquiry</label>
+            </div>
+            <div>
+                <input type="radio" id="option2" name="options" value="option2">
+                <label for="option2">Reservation Question</label>
+            </div>
+            <div>
+                <input type="radio" id="option3" name="options" value="option3">
+                <label for="option3">Website Suggestion</label>
+            </div>
+            <div class="form-item">
+                <label for="feedback" >Write a message: </label>
+                <textarea name="feedback" id="feedback"   rows="4" placeholder="Enter you message here"> </textarea>
+            </div>
+            <div class="form-item column1">
+                <label for="pet">Please subscribe me to the monthly newslette</label>
+                <input type="checkbox" id="pet" name="pet">
+            </div>
+            <button type="submit">Submit Quiz</button>
+        </form>
+        <section id="sec-imgs">
+            <h3>Meet Our Staff</h3>
+            <div class="div-sec">
+                    <figure>
+                    <img class="imgs" src="images/employe1.jfif" alt="">
+                    <figcaption>Daniela Isamar</figcaption>
+                </figure>
+                <figure>
+                    <img class="imgs" src="images/employe2.jfif" alt="">
+                    <figcaption>Jorge Silva</figcaption>
+                </figure>
+                <figure>
+                    <img class="imgs" src="images/employe3.jfif" alt="">
+                    <figcaption>Alessia Sofia</figcaption>
+                </figure>                
+
+            </div>
+        </section>
+    </main>
+    <footer class="footer-grid-container">
+        <p>&#169; 2024 - ALTECH - Jorge Silva</p>
+        <nav class="sociallinks">
+           <a href="https://facebook.com">
+               <img src="images/facebook.png" alt="facebook">
+           </a>
+           <a href="https://twitter.com">
+               <img id="link" src="images/twiter.png" alt="twitter">
+           </a>
+           <a href="https://instagram.com">
+               <img src="images/insta.jfif" alt="instagram">
+           </a>
+        </nav>
+   </footer>
+    
+</body>
+</html>
