@@ -187,6 +187,15 @@ grid-column: 1/4;
 
 
 /******************************************************/
+.maps{
+    display: flex;
+    justify-content: center;  
+    align-items: center;  
+    height: 200px;
+
+}
+/******************************************************/
+
 .footer-grid-container{
 	
 	grid-column: 1/5;
